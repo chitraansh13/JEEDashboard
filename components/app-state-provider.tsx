@@ -3,7 +3,7 @@
 import { createContext, useContext, useEffect, useMemo, useState } from "react";
 import { ThemeProvider } from "next-themes";
 import { getDefaultProgress } from "@/lib/analytics";
-import { LearningStatus, ProgressRecord, getAllSubtopics } from "@/lib/syllabus";
+import { LearningStatus, ProgressRecord, getAllSubtopics, getSubtopicMap } from "@/lib/syllabus";
 import { createSupabaseBrowserClient, hasSupabaseEnv } from "@/lib/supabase";
 
 type AppStateContextValue = {
@@ -33,7 +33,7 @@ const ensureRecord = (subtopicId: string, map: Record<string, ProgressRecord>) =
   map[subtopicId] ?? getDefaultProgress(subtopicId);
 
 const mapDbToRecord = (row: any): ProgressRecord => ({
-  subtopicId: row.subtopic_id,
+  subtopicId: row.subtopic_id.replace(/__(11|12)$/, ""),
   learningStatus: row.learning_status,
   revision1: row.revision_1,
   revision2: row.revision_2,
@@ -51,6 +51,8 @@ export function AppStateProvider({ children }: { children: React.ReactNode }) {
   const [currentUser, setCurrentUser] = useState<string | null>(null);
   const [currentUserId, setCurrentUserId] = useState<string | null>(null);
   const [progressMap, setProgressMap] = useState<Record<string, ProgressRecord>>({});
+
+  const subtopicMap = useMemo(() => getSubtopicMap(), []);
 
   const isSupabase = hasSupabaseEnv && !!supabase;
 
@@ -74,7 +76,8 @@ export function AppStateProvider({ children }: { children: React.ReactNode }) {
             if (data && !error && active) {
               const map: Record<string, ProgressRecord> = {};
               data.forEach((row) => {
-                map[row.subtopic_id] = mapDbToRecord(row);
+                const record = mapDbToRecord(row);
+                map[record.subtopicId] = record;
               });
               setProgressMap(map);
             }
@@ -99,7 +102,8 @@ export function AppStateProvider({ children }: { children: React.ReactNode }) {
           if (data && !error && active) {
             const map: Record<string, ProgressRecord> = {};
             data.forEach((row) => {
-              map[row.subtopic_id] = mapDbToRecord(row);
+              const record = mapDbToRecord(row);
+              map[record.subtopicId] = record;
             });
             setProgressMap(map);
           }
@@ -190,9 +194,13 @@ export function AppStateProvider({ children }: { children: React.ReactNode }) {
 
   const syncRecordToDb = async (record: ProgressRecord) => {
     if (!isSupabase || !supabase || !currentUserId) return;
+    const subtopic = subtopicMap[record.subtopicId];
+    const classSuffix = subtopic && subtopic.classTags.length > 0 ? `__${subtopic.classTags[0]}` : "__11";
+    const dbSubtopicId = `${record.subtopicId}${classSuffix}`;
+
     const { error } = await supabase.from("progress").upsert({
       user_id: currentUserId,
-      subtopic_id: record.subtopicId,
+      subtopic_id: dbSubtopicId,
       learning_status: record.learningStatus,
       revision_1: record.revision1,
       revision_2: record.revision2,
