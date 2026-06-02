@@ -1,5 +1,35 @@
 import { createClient } from "@supabase/supabase-js";
 import { flattenForImport } from "../lib/syllabus";
+import * as fs from "fs";
+import * as path from "path";
+
+// Simple .env.local loader for standalone execution
+try {
+  const envPath = path.resolve(process.cwd(), ".env.local");
+  if (fs.existsSync(envPath)) {
+    const envFile = fs.readFileSync(envPath, "utf-8");
+    envFile.split(/\r?\n/).forEach((line) => {
+      const match = line.match(/^\s*([\w.-]+)\s*=\s*(.*)?\s*$/);
+      if (match) {
+        const key = match[1];
+        let value = match[2] || "";
+        if (value.startsWith('"') && value.endsWith('"')) {
+          value = value.substring(1, value.length - 1);
+        } else if (value.startsWith("'") && value.endsWith("'")) {
+          value = value.substring(1, value.length - 1);
+        }
+        process.env[key] = value.trim();
+      }
+    });
+  }
+} catch (e) {
+  // Ignore
+}
+
+// Bypass Node.js < 22 WebSocket check for Supabase Realtime Client
+if (typeof (global as any).WebSocket === "undefined") {
+  (global as any).WebSocket = class {};
+}
 
 async function main() {
   const payload = flattenForImport();

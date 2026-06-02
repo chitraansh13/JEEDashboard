@@ -190,7 +190,7 @@ export function AppStateProvider({ children }: { children: React.ReactNode }) {
 
   const syncRecordToDb = async (record: ProgressRecord) => {
     if (!isSupabase || !supabase || !currentUserId) return;
-    await supabase.from("progress").upsert({
+    const { error } = await supabase.from("progress").upsert({
       user_id: currentUserId,
       subtopic_id: record.subtopicId,
       learning_status: record.learningStatus,
@@ -204,6 +204,10 @@ export function AppStateProvider({ children }: { children: React.ReactNode }) {
     }, {
       onConflict: "user_id,subtopic_id"
     });
+
+    if (error) {
+      console.error("Failed to sync progress to Supabase:", error);
+    }
   };
 
   const updateLearningStatus = (subtopicId: string, status: LearningStatus) => {
