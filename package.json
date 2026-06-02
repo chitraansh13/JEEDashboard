@@ -1,0 +1,33 @@
+{
+  "name": "jee-advanced-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Apple-inspired JEE Advanced preparation tracker built with Next.js.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "import:syllabus": "tsx scripts/importSyllabus.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.4",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.23.24",
+    "lucide-react": "^0.544.0",
+    "next": "^15.5.3",
+    "next-themes": "^0.4.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "recharts": "^3.2.1",
+    "tailwind-merge": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.4.0",
+    "@types/react": "^19.1.13",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.13",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}

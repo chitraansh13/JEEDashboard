@@ -1,0 +1,2039 @@
+{
+  "meta": {
+    "exam": "JEE Advanced",
+    "year": 2026,
+    "verified_on": "2026-06-02",
+    "source": {
+      "name": "JEE (Advanced) 2026 Syllabus",
+      "url": "https://jeeadv.ac.in/documents/jee-advanced-2026-syllabus.pdf",
+      "note": "The official PDF states that the JEE Advanced 2026 syllabus remains the same as JEE Advanced 2025."
+    },
+    "structure_note": "Chapters follow the official syllabus headings. Topics and subtopics break each official line item into trackable checklist units for a dashboard.",
+    "class_mapping_note": "class_tags are curriculum-aligned tags added for tracking; the official syllabus itself is not published class-wise."
+  },
+  "subjects": [
+    {
+      "name": "Physics",
+      "units": [
+        {
+          "name": "General Physics",
+          "chapters": [
+            {
+              "name": "General",
+              "class_tags": ["11", "12"],
+              "topics": [
+                {
+                  "name": "Units, Dimensions and Measurements",
+                  "subtopics": [
+                    "Units and dimensions",
+                    "Dimensional analysis",
+                    "Least count",
+                    "Significant figures",
+                    "Measurement methods",
+                    "Error analysis"
+                  ]
+                },
+                {
+                  "name": "Experimental Physics",
+                  "subtopics": [
+                    "Vernier calipers experiments",
+                    "Screw gauge or micrometer experiments",
+                    "Determination of g using simple pendulum",
+                    "Young's modulus and elasticity experiment",
+                    "Surface tension by capillary rise",
+                    "Effect of detergents on surface tension",
+                    "Specific heat of a liquid using calorimeter",
+                    "Focal length of a concave mirror by u-v method",
+                    "Focal length of a convex lens by u-v method",
+                    "Speed of sound using resonance column",
+                    "Verification of Ohm's law using voltmeter and ammeter",
+                    "Specific resistance of a wire using meter bridge",
+                    "Specific resistance using post office box"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mechanics",
+          "chapters": [
+            {
+              "name": "Kinematics",
+              "class_tags": ["11"],
+              "topics": [
+                {
+                  "name": "Motion in One and Two Dimensions",
+                  "subtopics": [
+                    "Kinematics in one dimension",
+                    "Kinematics in two dimensions in Cartesian coordinates",
+                    "Projectile motion",
+                    "Uniform circular motion",
+                    "Relative velocity"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Laws of Motion, Work, Energy and Momentum",
+              "class_tags": ["11"],
+              "topics": [
+                {
+                  "name": "Newtonian Mechanics",
+                  "subtopics": [
+                    "Newton's laws of motion",
+                    "Inertial frames of reference",
+                    "Uniformly accelerated frames of reference",
+                    "Static friction",
+                    "Dynamic friction"
+                  ]
+                },
+                {
+                  "name": "Work, Energy and Power",
+                  "subtopics": [
+                    "Kinetic energy",
+                    "Potential energy",
+                    "Work",
+                    "Power",
+                    "Conservation of mechanical energy"
+                  ]
+                },
+                {
+                  "name": "Momentum and Impulse",
+                  "subtopics": [
+                    "Conservation of linear momentum",
+                    "Impulse",
+                    "Elastic collisions",
+                    "Inelastic collisions"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "System of Particles and Rigid Body Dynamics",
+              "class_tags": ["11"],
+              "topics": [
+                {
+                  "name": "System of Particles",
+                  "subtopics": [
+                    "Centre of mass",
+                    "Motion of centre of mass",
+                    "Systems of particles"
+                  ]
+                },
+                {
+                  "name": "Rotational Dynamics",
+                  "subtopics": [
+                    "Rigid body",
+                    "Moment of inertia",
+                    "Parallel axis theorem",
+                    "Perpendicular axis theorem",
+                    "Moment of inertia of uniform simple bodies",
+                    "Angular momentum",
+                    "Torque",
+                    "Conservation of angular momentum",
+                    "Dynamics of rigid bodies with fixed axis",
+                    "Rolling without slipping of rings",
+                    "Rolling without slipping of cylinders",
+                    "Rolling without slipping of spheres",
+                    "Equilibrium of rigid bodies",
+                    "Collision of point masses with rigid bodies"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Oscillations and Waves",
+              "class_tags": ["11"],
+              "topics": [
+                {
+                  "name": "Oscillations",
+                  "subtopics": [
+                    "Forced oscillation in one dimension",
+                    "Damped oscillation in one dimension",
+                    "Resonance",
+                    "Linear simple harmonic motion",
+                    "Angular simple harmonic motion"
+                  ]
+                },
+                {
+                  "name": "Wave Motion",
+                  "subtopics": [
+                    "Plane wave motion",
+                    "Longitudinal waves",
+                    "Transverse waves",
+                    "Superposition of waves",
+                    "Progressive waves",
+                    "Stationary waves",
+                    "Vibration of strings",
+                    "Vibration of air columns",
+                    "Resonance in waves",
+                    "Beats",
+                    "Speed of sound in gases",
+                    "Doppler effect in sound"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Elasticity, Gravitation and Fluid Mechanics",
+              "class_tags": ["11"],
+              "topics": [
+                {
+                  "name": "Elasticity",
+                  "subtopics": [
+                    "Hooke's law",
+                    "Young's modulus",
+                    "Modulus of rigidity",
+                    "Bulk modulus in mechanics"
+                  ]
+                },
+                {
+                  "name": "Gravitation",
+                  "subtopics": [
+                    "Law of gravitation",
+                    "Gravitational potential",
+                    "Gravitational field",
+                    "Acceleration due to gravity",
+                    "Kepler's laws",
+                    "Geostationary orbits",
+                    "Motion of planets in circular orbits",
+                    "Motion of satellites in circular orbits",
+                    "Escape velocity"
+                  ]
+                },
+                {
+                  "name": "Fluids and Surface Phenomena",
+                  "subtopics": [
+                    "Pressure in a fluid",
+                    "Pascal's law",
+                    "Buoyancy",
+                    "Surface energy",
+                    "Surface tension",
+                    "Angle of contact",
+                    "Drops and bubbles",
+                    "Capillary rise",
+                    "Viscosity",
+                    "Stoke's law",
+                    "Terminal velocity",
+                    "Streamline flow",
+                    "Equation of continuity",
+                    "Bernoulli's theorem",
+                    "Applications of Bernoulli's theorem"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Thermal Physics",
+          "chapters": [
+            {
+              "name": "Thermal Physics",
+              "class_tags": ["11"],
+              "topics": [
+                {
+                  "name": "Heat and Temperature",
+                  "subtopics": [
+                    "Thermal expansion of solids",
+                    "Thermal expansion of liquids",
+                    "Thermal expansion of gases",
+                    "Calorimetry",
+                    "Latent heat",
+                    "Heat conduction in one dimension",
+                    "Elementary convection",
+                    "Elementary radiation",
+                    "Newton's law of cooling"
+                  ]
+                },
+                {
+                  "name": "Kinetic Theory and Thermodynamics",
+                  "subtopics": [
+                    "Ideal gas laws",
+                    "Specific heat at constant volume",
+                    "Specific heat at constant pressure",
+                    "Specific heats for monoatomic gases",
+                    "Specific heats for diatomic gases",
+                    "Isothermal processes",
+                    "Adiabatic processes",
+                    "Bulk modulus of gases",
+                    "Equivalence of heat and work",
+                    "First law of thermodynamics",
+                    "Applications of first law for ideal gases",
+                    "Second law of thermodynamics",
+                    "Reversible processes",
+                    "Irreversible processes",
+                    "Carnot engine",
+                    "Efficiency of Carnot engine"
+                  ]
+                },
+                {
+                  "name": "Thermal Radiation",
+                  "subtopics": [
+                    "Blackbody radiation",
+                    "Absorptive power",
+                    "Emissive power",
+                    "Kirchhoff's law",
+                    "Wien's displacement law",
+                    "Stefan's law"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Electricity and Magnetism",
+          "chapters": [
+            {
+              "name": "Electrostatics and Capacitance",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Electric Charges and Fields",
+                  "subtopics": [
+                    "Coulomb's law",
+                    "Electric field",
+                    "Electric field lines",
+                    "Electric potential",
+                    "Electrical potential energy of point charge systems",
+                    "Electrical potential energy of dipoles in uniform electrostatic field",
+                    "Flux of electric field",
+                    "Gauss's law",
+                    "Field due to infinitely long straight wire using Gauss's law",
+                    "Field due to uniformly charged infinite plane sheet",
+                    "Field due to uniformly charged thin spherical shell"
+                  ]
+                },
+                {
+                  "name": "Capacitance",
+                  "subtopics": [
+                    "Capacitance",
+                    "Parallel plate capacitor",
+                    "Parallel plate capacitor with dielectric",
+                    "Capacitors in series",
+                    "Capacitors in parallel",
+                    "Energy stored in a capacitor"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Current Electricity",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Electric Current and Circuits",
+                  "subtopics": [
+                    "Electric current",
+                    "Ohm's law",
+                    "Resistances in series",
+                    "Resistances in parallel",
+                    "Cells in series",
+                    "Cells in parallel",
+                    "Kirchhoff's laws",
+                    "Simple applications of Kirchhoff's laws",
+                    "Heating effect of current"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Magnetism and Magnetic Effects of Current",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Magnetic Field due to Current",
+                  "subtopics": [
+                    "Biot-Savart law",
+                    "Ampere's law",
+                    "Magnetic field near a current-carrying straight wire",
+                    "Magnetic field along the axis of a circular coil",
+                    "Magnetic field inside a long straight solenoid"
+                  ]
+                },
+                {
+                  "name": "Force and Magnetic Moment",
+                  "subtopics": [
+                    "Force on a moving charge in uniform magnetic field",
+                    "Force on a current-carrying wire in uniform magnetic field",
+                    "Magnetic moment of a current loop",
+                    "Effect of uniform magnetic field on a current loop"
+                  ]
+                },
+                {
+                  "name": "Measuring Instruments",
+                  "subtopics": [
+                    "Moving coil galvanometer",
+                    "Conversion of galvanometer into voltmeter",
+                    "Conversion of galvanometer into ammeter"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Electromagnetic Induction and Alternating Current",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Electromagnetic Induction",
+                  "subtopics": [
+                    "Faraday's law",
+                    "Lenz's law",
+                    "Self inductance",
+                    "Mutual inductance"
+                  ]
+                },
+                {
+                  "name": "Circuits with DC and AC Sources",
+                  "subtopics": [
+                    "RC circuit with d.c. source",
+                    "RC circuit with a.c. source",
+                    "LR circuit with d.c. source",
+                    "LR circuit with a.c. source",
+                    "LC circuit with d.c. source",
+                    "LC circuit with a.c. source",
+                    "LCR series circuit with d.c. source",
+                    "LCR series circuit with a.c. source"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Electromagnetic Waves",
+          "chapters": [
+            {
+              "name": "Electromagnetic Waves",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Electromagnetic Spectrum",
+                  "subtopics": [
+                    "Electromagnetic waves and characteristics",
+                    "Radio waves",
+                    "Microwaves",
+                    "Infrared waves",
+                    "Visible light",
+                    "Ultraviolet rays",
+                    "X-rays",
+                    "Gamma rays",
+                    "Uses of electromagnetic spectrum"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Optics",
+          "chapters": [
+            {
+              "name": "Ray Optics",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Geometrical Optics",
+                  "subtopics": [
+                    "Rectilinear propagation of light",
+                    "Reflection at plane surfaces",
+                    "Reflection at spherical surfaces",
+                    "Refraction at plane surfaces",
+                    "Refraction at spherical surfaces",
+                    "Total internal reflection",
+                    "Deviation by a prism",
+                    "Dispersion by a prism",
+                    "Thin lenses",
+                    "Combinations of mirrors",
+                    "Combinations of thin lenses",
+                    "Magnification"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Wave Optics",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Wave Nature of Light",
+                  "subtopics": [
+                    "Huygen's principle",
+                    "Young's double slit experiment",
+                    "Single slit diffraction",
+                    "Polarization of light",
+                    "Plane polarized light",
+                    "Brewster's law",
+                    "Polaroids"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Modern Physics",
+          "chapters": [
+            {
+              "name": "Nuclear Physics",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Nucleus and Radioactivity",
+                  "subtopics": [
+                    "Atomic nucleus",
+                    "Alpha radiation",
+                    "Beta radiation",
+                    "Gamma radiation",
+                    "Law of radioactive decay",
+                    "Decay constant",
+                    "Half-life",
+                    "Mean life",
+                    "Binding energy and its calculation",
+                    "Nuclear fission",
+                    "Nuclear fusion",
+                    "Energy calculation in fission and fusion"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Atomic and Quantum Physics",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Photoelectricity and Atomic Models",
+                  "subtopics": [
+                    "Photoelectric effect",
+                    "Bohr's theory of hydrogen-like atoms",
+                    "Characteristic X-rays",
+                    "Continuous X-rays",
+                    "Moseley's law",
+                    "de Broglie wavelength of matter waves"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chemistry",
+      "units": [
+        {
+          "name": "Physical Chemistry",
+          "chapters": [
+            {
+              "name": "General Topics",
+              "class_tags": ["11"],
+              "topics": [
+                {
+                  "name": "Mole Concept and Stoichiometry",
+                  "subtopics": [
+                    "Concept of atoms and molecules",
+                    "Dalton's atomic theory",
+                    "Mole concept",
+                    "Chemical formulae",
+                    "Balanced chemical equations",
+                    "Stoichiometric calculations",
+                    "Oxidation-reduction calculations",
+                    "Neutralisation calculations",
+                    "Displacement reaction calculations",
+                    "Mole fraction",
+                    "Molarity",
+                    "Molality",
+                    "Normality"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "States of Matter: Gases and Liquids",
+              "class_tags": ["11"],
+              "topics": [
+                {
+                  "name": "Gaseous State",
+                  "subtopics": [
+                    "Gas laws",
+                    "Ideal gas equation",
+                    "Absolute scale of temperature",
+                    "Deviation from ideality",
+                    "van der Waals equation",
+                    "Kinetic theory of gases",
+                    "Average velocity",
+                    "Root mean square velocity",
+                    "Most probable velocity",
+                    "Velocity-temperature relations",
+                    "Law of partial pressures",
+                    "Diffusion of gases"
+                  ]
+                },
+                {
+                  "name": "Liquids and Intermolecular Forces",
+                  "subtopics": [
+                    "Intermolecular interactions",
+                    "Distance dependence of intermolecular interactions",
+                    "Effect of intermolecular interactions on properties",
+                    "Vapour pressure",
+                    "Surface tension",
+                    "Viscosity of liquids"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Atomic Structure",
+              "class_tags": ["11"],
+              "topics": [
+                {
+                  "name": "Quantum Model of Atom",
+                  "subtopics": [
+                    "Bohr model",
+                    "Hydrogen spectrum",
+                    "Wave-particle duality",
+                    "de Broglie hypothesis",
+                    "Uncertainty principle",
+                    "Quantum mechanical picture of hydrogen atom",
+                    "Energies of hydrogen atom",
+                    "Quantum numbers",
+                    "Wave function",
+                    "Probability density plots",
+                    "Shapes of s orbitals",
+                    "Shapes of p orbitals",
+                    "Shapes of d orbitals",
+                    "Aufbau principle",
+                    "Pauli exclusion principle",
+                    "Hund's rule"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Chemical Bonding and Molecular Structure",
+              "class_tags": ["11"],
+              "topics": [
+                {
+                  "name": "Bonding Models",
+                  "subtopics": [
+                    "Orbital overlap",
+                    "Covalent bond",
+                    "Hybridisation involving s orbitals",
+                    "Hybridisation involving p orbitals",
+                    "Hybridisation involving d orbitals",
+                    "Molecular orbital energy diagrams for homonuclear diatomics up to Ne2",
+                    "Hydrogen bond",
+                    "Polarity in molecules",
+                    "Dipole moment"
+                  ]
+                },
+                {
+                  "name": "VSEPR and Molecular Shapes",
+                  "subtopics": [
+                    "VSEPR model",
+                    "Linear shape",
+                    "Angular shape",
+                    "Triangular shape",
+                    "Square planar shape",
+                    "Pyramidal shape",
+                    "Square pyramidal shape",
+                    "Trigonal bipyramidal shape",
+                    "Tetrahedral shape",
+                    "Octahedral shape"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Chemical Thermodynamics",
+              "class_tags": ["11"],
+              "topics": [
+                {
+                  "name": "Thermodynamic Principles",
+                  "subtopics": [
+                    "Intensive properties",
+                    "Extensive properties",
+                    "State functions",
+                    "First law of thermodynamics",
+                    "Internal energy",
+                    "Pressure-volume work",
+                    "Heat",
+                    "Enthalpy",
+                    "Heat capacity",
+                    "Standard state",
+                    "Hess's law",
+                    "Enthalpy of reaction",
+                    "Enthalpy of fusion",
+                    "Enthalpy of vaporization",
+                    "Lattice enthalpy",
+                    "Second law of thermodynamics",
+                    "Entropy",
+                    "Gibbs energy",
+                    "Criteria of equilibrium",
+                    "Criteria of spontaneity"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Chemical and Ionic Equilibrium",
+              "class_tags": ["11"],
+              "topics": [
+                {
+                  "name": "Chemical Equilibrium",
+                  "subtopics": [
+                    "Law of mass action",
+                    "Significance of Gibbs energy in equilibrium",
+                    "Standard Gibbs energy in equilibrium",
+                    "Equilibrium constant Kp",
+                    "Equilibrium constant Kc",
+                    "Reaction quotient",
+                    "Le Chatelier's principle",
+                    "Effect of concentration",
+                    "Effect of temperature",
+                    "Effect of pressure"
+                  ]
+                },
+                {
+                  "name": "Ionic Equilibrium",
+                  "subtopics": [
+                    "Solubility product",
+                    "Applications of solubility product",
+                    "Common ion effect",
+                    "pH",
+                    "Buffer solutions",
+                    "Bronsted acids and bases",
+                    "Lewis acids and bases",
+                    "Hydrolysis of salts"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Electrochemistry",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Electrochemical Cells and Conductance",
+                  "subtopics": [
+                    "Electrochemical cells",
+                    "Cell reactions",
+                    "Standard electrode potentials",
+                    "Electrochemical work",
+                    "Nernst equation",
+                    "Electrochemical series",
+                    "emf of galvanic cells",
+                    "Faraday's laws of electrolysis",
+                    "Electrolytic conductance",
+                    "Specific conductivity",
+                    "Equivalent conductivity",
+                    "Molar conductivity",
+                    "Kohlrausch's law",
+                    "Primary batteries",
+                    "Secondary batteries",
+                    "Fuel cells",
+                    "Corrosion"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Chemical Kinetics",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Rate of Reaction and Catalysis",
+                  "subtopics": [
+                    "Rate of chemical reactions",
+                    "Order of reaction",
+                    "Molecularity of reaction",
+                    "Rate law",
+                    "Rate constant",
+                    "Half-life",
+                    "Differential rate equation for zero order reaction",
+                    "Integrated rate equation for zero order reaction",
+                    "Differential rate equation for first order reaction",
+                    "Integrated rate equation for first order reaction",
+                    "Temperature dependence of rate constant",
+                    "Arrhenius equation",
+                    "Activation energy",
+                    "Homogeneous catalysis",
+                    "Heterogeneous catalysis",
+                    "Activity of solid catalysts",
+                    "Selectivity of solid catalysts",
+                    "Enzyme catalysis",
+                    "Mechanism of enzyme catalysis"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Solid State",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Crystal Structure",
+                  "subtopics": [
+                    "Classification of solids",
+                    "Crystalline state",
+                    "Seven crystal systems",
+                    "Cell parameters a, b, c, alpha, beta, gamma",
+                    "Close packed structure of solids",
+                    "Cubic close packing",
+                    "Hexagonal close packing",
+                    "Packing in fcc lattice",
+                    "Packing in bcc lattice",
+                    "Packing in hcp lattice",
+                    "Nearest neighbours",
+                    "Ionic radii",
+                    "Radius ratio",
+                    "Point defects"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Solutions",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Solution Properties",
+                  "subtopics": [
+                    "Henry's law",
+                    "Raoult's law",
+                    "Ideal solutions",
+                    "Lowering of vapour pressure",
+                    "Elevation of boiling point",
+                    "Depression of freezing point",
+                    "Osmotic pressure",
+                    "van't Hoff factor"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Surface Chemistry",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Adsorption and Colloids",
+                  "subtopics": [
+                    "Physisorption",
+                    "Chemisorption",
+                    "Freundlich adsorption isotherm",
+                    "Types of colloids",
+                    "Methods of preparation of colloids",
+                    "General properties of colloids",
+                    "Emulsions",
+                    "Surfactants",
+                    "Micelles"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Inorganic Chemistry",
+          "chapters": [
+            {
+              "name": "Classification of Elements and Periodicity in Properties",
+              "class_tags": ["11"],
+              "topics": [
+                {
+                  "name": "Periodic Trends",
+                  "subtopics": [
+                    "Modern periodic law",
+                    "Present form of periodic table",
+                    "Electronic configuration of elements",
+                    "Periodic trend in atomic radius",
+                    "Periodic trend in ionic radius",
+                    "Periodic trend in ionization enthalpy",
+                    "Periodic trend in electron gain enthalpy",
+                    "Periodicity of valence",
+                    "Periodicity of oxidation states",
+                    "Periodicity of electronegativity",
+                    "Periodicity of chemical reactivity"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hydrogen",
+              "class_tags": ["11"],
+              "topics": [
+                {
+                  "name": "Hydrogen and Its Compounds",
+                  "subtopics": [
+                    "Position of hydrogen in periodic table",
+                    "Occurrence of hydrogen",
+                    "Isotopes of hydrogen",
+                    "Preparation of hydrogen",
+                    "Properties of hydrogen",
+                    "Uses of hydrogen",
+                    "Ionic hydrides",
+                    "Covalent hydrides",
+                    "Interstitial hydrides",
+                    "Physical properties of water",
+                    "Chemical properties of water",
+                    "Heavy water",
+                    "Preparation of hydrogen peroxide",
+                    "Reactions of hydrogen peroxide",
+                    "Uses of hydrogen peroxide",
+                    "Structure of hydrogen peroxide",
+                    "Hydrogen as a fuel"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "s-Block Elements",
+              "class_tags": ["11"],
+              "topics": [
+                {
+                  "name": "Alkali and Alkaline Earth Metals",
+                  "subtopics": [
+                    "Reactivity towards air",
+                    "Reactivity towards water",
+                    "Reactivity towards dihydrogen",
+                    "Reactivity towards halogens",
+                    "Reactivity towards acids",
+                    "Reducing nature",
+                    "Solutions in liquid ammonia",
+                    "Uses of alkali and alkaline earth metals",
+                    "General characteristics of oxides",
+                    "General characteristics of hydroxides",
+                    "General characteristics of halides",
+                    "General characteristics of salts of oxoacids",
+                    "Anomalous behaviour of lithium",
+                    "Anomalous behaviour of beryllium"
+                  ]
+                },
+                {
+                  "name": "Important Compounds of Sodium and Calcium",
+                  "subtopics": [
+                    "Sodium carbonate",
+                    "Sodium chloride",
+                    "Sodium hydroxide",
+                    "Sodium hydrogen carbonate",
+                    "Calcium oxide",
+                    "Calcium hydroxide",
+                    "Calcium carbonate",
+                    "Calcium sulphate"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "p-Block Elements",
+              "class_tags": ["11", "12"],
+              "topics": [
+                {
+                  "name": "General p-Block Trends",
+                  "subtopics": [
+                    "Oxidation states in groups 13 to 17",
+                    "Trends in chemical reactivity in groups 13 to 17",
+                    "Anomalous properties of boron",
+                    "Anomalous properties of carbon",
+                    "Anomalous properties of nitrogen",
+                    "Anomalous properties of oxygen",
+                    "Anomalous properties of fluorine"
+                  ]
+                },
+                {
+                  "name": "Group 13",
+                  "subtopics": [
+                    "Reactivity towards acids",
+                    "Reactivity towards alkalis",
+                    "Reactivity towards halogens",
+                    "Preparation of borax",
+                    "Properties of borax",
+                    "Uses of borax",
+                    "Preparation of orthoboric acid",
+                    "Properties of orthoboric acid",
+                    "Uses of orthoboric acid",
+                    "Preparation of diborane",
+                    "Properties of diborane",
+                    "Uses of diborane",
+                    "Preparation of boron trifluoride",
+                    "Properties of boron trifluoride",
+                    "Uses of boron trifluoride",
+                    "Preparation of aluminium chloride",
+                    "Properties of aluminium chloride",
+                    "Uses of aluminium chloride",
+                    "Preparation of alums",
+                    "Properties of alums",
+                    "Uses of alums",
+                    "Uses of boron",
+                    "Uses of aluminium"
+                  ]
+                },
+                {
+                  "name": "Group 14",
+                  "subtopics": [
+                    "Reactivity towards water",
+                    "Reactivity towards halogen",
+                    "Allotropes of carbon",
+                    "Uses of carbon",
+                    "Preparation of carbon monoxide",
+                    "Properties of carbon monoxide",
+                    "Uses of carbon monoxide",
+                    "Preparation of carbon dioxide",
+                    "Properties of carbon dioxide",
+                    "Uses of carbon dioxide",
+                    "Silicon dioxide",
+                    "Silicones",
+                    "Silicates",
+                    "Zeolites"
+                  ]
+                },
+                {
+                  "name": "Group 15",
+                  "subtopics": [
+                    "Reactivity towards hydrogen",
+                    "Reactivity towards oxygen",
+                    "Reactivity towards halogen",
+                    "Allotropes of phosphorus",
+                    "Preparation of dinitrogen",
+                    "Properties of dinitrogen",
+                    "Uses of dinitrogen",
+                    "Preparation of ammonia",
+                    "Properties of ammonia",
+                    "Uses of ammonia",
+                    "Preparation of nitric acid",
+                    "Properties of nitric acid",
+                    "Uses of nitric acid",
+                    "Preparation of phosphine",
+                    "Properties of phosphine",
+                    "Uses of phosphine",
+                    "Preparation of phosphorus trichloride",
+                    "Properties of phosphorus trichloride",
+                    "Preparation of phosphorus pentachloride",
+                    "Properties of phosphorus pentachloride",
+                    "Oxides of nitrogen",
+                    "Oxoacids of phosphorus"
+                  ]
+                },
+                {
+                  "name": "Group 16",
+                  "subtopics": [
+                    "Reactivity towards hydrogen",
+                    "Reactivity towards oxygen",
+                    "Reactivity towards halogen",
+                    "Simple oxides",
+                    "Allotropes of sulphur",
+                    "Preparation of dioxygen",
+                    "Manufacture of dioxygen",
+                    "Properties of dioxygen",
+                    "Uses of dioxygen",
+                    "Preparation of ozone",
+                    "Properties of ozone",
+                    "Uses of ozone",
+                    "Preparation of sulphur dioxide",
+                    "Manufacture of sulphur dioxide",
+                    "Properties of sulphur dioxide",
+                    "Uses of sulphur dioxide",
+                    "Preparation of sulphuric acid",
+                    "Manufacture of sulphuric acid",
+                    "Properties of sulphuric acid",
+                    "Uses of sulphuric acid",
+                    "Oxoacids of sulphur"
+                  ]
+                },
+                {
+                  "name": "Group 17",
+                  "subtopics": [
+                    "Reactivity towards hydrogen",
+                    "Reactivity towards oxygen",
+                    "Reactivity towards metals",
+                    "Preparation of chlorine",
+                    "Manufacture of chlorine",
+                    "Properties of chlorine",
+                    "Uses of chlorine",
+                    "Preparation of hydrogen chloride",
+                    "Properties of hydrogen chloride",
+                    "Uses of hydrogen chloride",
+                    "Interhalogen compounds",
+                    "Oxoacids of halogens",
+                    "Bleaching powder"
+                  ]
+                },
+                {
+                  "name": "Group 18",
+                  "subtopics": [
+                    "Chemical properties of noble gases",
+                    "Uses of noble gases",
+                    "Compounds of xenon with fluorine",
+                    "Compounds of xenon with oxygen"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "d-Block Elements",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Transition Elements",
+                  "subtopics": [
+                    "Oxidation states",
+                    "Stability of oxidation states",
+                    "Standard electrode potentials",
+                    "Interstitial compounds",
+                    "Alloys",
+                    "Catalytic properties",
+                    "Applications of d-block elements",
+                    "Preparation of oxoanions of chromium",
+                    "Structure of oxoanions of chromium",
+                    "Reactions of oxoanions of chromium",
+                    "Preparation of oxoanions of manganese",
+                    "Structure of oxoanions of manganese",
+                    "Reactions of oxoanions of manganese"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "f-Block Elements",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Inner Transition Elements",
+                  "subtopics": [
+                    "Lanthanoid contraction",
+                    "Actinoid contraction",
+                    "Oxidation states",
+                    "General characteristics"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Coordination Compounds",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Structure and Bonding",
+                  "subtopics": [
+                    "Werner's theory",
+                    "Nomenclature of coordination compounds",
+                    "Cis-trans isomerism",
+                    "Ionization isomerism",
+                    "Hybridization of mononuclear coordination compounds",
+                    "Linear geometry",
+                    "Tetrahedral geometry",
+                    "Square planar geometry",
+                    "Octahedral geometry",
+                    "Bonding by valence bond theory",
+                    "Crystal field theory in octahedral field",
+                    "Crystal field theory in tetrahedral field"
+                  ]
+                },
+                {
+                  "name": "Properties and Applications",
+                  "subtopics": [
+                    "Spin-only magnetic properties of 3d coordination compounds",
+                    "Colour of 3d-series coordination compounds",
+                    "Ligands",
+                    "Spectrochemical series",
+                    "Stability of coordination compounds",
+                    "Importance of coordination compounds",
+                    "Applications of coordination compounds",
+                    "Metal carbonyls"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Isolation of Metals",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Metallurgy",
+                  "subtopics": [
+                    "Metal ores",
+                    "Concentration of ores",
+                    "Thermodynamic principles of metallurgy",
+                    "Extraction of iron",
+                    "Extraction of copper",
+                    "Extraction of zinc",
+                    "Electrochemical principles of metallurgy",
+                    "Extraction of aluminium",
+                    "Cyanide process for silver",
+                    "Cyanide process for gold",
+                    "Refining of metals"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Principles of Qualitative Analysis",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Cation Analysis",
+                  "subtopics": [
+                    "Group I to V analysis",
+                    "Ag+",
+                    "Hg2+",
+                    "Cu2+",
+                    "Pb2+",
+                    "Fe3+",
+                    "Cr3+",
+                    "Al3+",
+                    "Ca2+",
+                    "Ba2+",
+                    "Zn2+",
+                    "Mn2+",
+                    "Mg2+"
+                  ]
+                },
+                {
+                  "name": "Anion Analysis",
+                  "subtopics": [
+                    "Nitrate",
+                    "Halides excluding fluoride",
+                    "Carbonate",
+                    "Bicarbonate",
+                    "Sulphate",
+                    "Sulphide"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Environmental Chemistry",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Pollution and Green Chemistry",
+                  "subtopics": [
+                    "Atmospheric pollution",
+                    "Water pollution",
+                    "Soil pollution",
+                    "Industrial waste",
+                    "Strategies to control environmental pollution",
+                    "Green chemistry"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Organic Chemistry",
+          "chapters": [
+            {
+              "name": "Basic Principles of Organic Chemistry",
+              "class_tags": ["11"],
+              "topics": [
+                {
+                  "name": "Fundamentals",
+                  "subtopics": [
+                    "Hybridisation of carbon",
+                    "Sigma bonds",
+                    "Pi bonds",
+                    "Shapes of simple organic molecules",
+                    "Aromaticity",
+                    "Structural isomerism",
+                    "Geometrical isomerism",
+                    "Stereoisomers",
+                    "Enantiomers",
+                    "Diastereomers",
+                    "Meso compounds",
+                    "Compounds with up to two asymmetric centres",
+                    "Empirical formula by combustion method",
+                    "Molecular formula by combustion method",
+                    "IUPAC nomenclature of hydrocarbons",
+                    "IUPAC nomenclature of simple cyclic hydrocarbons",
+                    "IUPAC nomenclature of monofunctional derivatives",
+                    "IUPAC nomenclature of bifunctional derivatives",
+                    "Hydrogen bonding effects",
+                    "Inductive effect",
+                    "Resonance effect",
+                    "Hyperconjugative effect",
+                    "Acidity of organic compounds",
+                    "Basicity of organic compounds",
+                    "Homolytic bond cleavage",
+                    "Heterolytic bond cleavage",
+                    "Carbocations",
+                    "Carbanions",
+                    "Free radicals",
+                    "Formation of reactive intermediates",
+                    "Structure of reactive intermediates",
+                    "Stability of reactive intermediates"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Alkanes",
+              "class_tags": ["11"],
+              "topics": [
+                {
+                  "name": "Alkane Chemistry",
+                  "subtopics": [
+                    "Homologous series",
+                    "Melting points of alkanes",
+                    "Boiling points of alkanes",
+                    "Density of alkanes",
+                    "Effect of branching on physical properties",
+                    "Conformations of ethane",
+                    "Conformations of butane",
+                    "Newman projections",
+                    "Preparation from alkyl halides",
+                    "Preparation from aliphatic carboxylic acids",
+                    "Combustion of alkanes",
+                    "Halogenation of alkanes",
+                    "Allylic halogenation",
+                    "Benzylic halogenation",
+                    "Oxidation of alkanes"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Alkenes and Alkynes",
+              "class_tags": ["11"],
+              "topics": [
+                {
+                  "name": "Unsaturated Hydrocarbons",
+                  "subtopics": [
+                    "Boiling points",
+                    "Density",
+                    "Dipole moments",
+                    "Preparation by elimination reactions",
+                    "Acid catalysed hydration",
+                    "Metal acetylides",
+                    "Reaction with KMnO4",
+                    "Ozonolysis",
+                    "Reduction of alkenes",
+                    "Reduction of alkynes",
+                    "Electrophilic addition with X2",
+                    "Electrophilic addition with HX",
+                    "Electrophilic addition with HOX",
+                    "Peroxide effect",
+                    "Cyclic polymerization of alkynes"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Benzene",
+              "class_tags": ["11", "12"],
+              "topics": [
+                {
+                  "name": "Aromatic Compounds",
+                  "subtopics": [
+                    "Structure of benzene",
+                    "Halogenation of benzene",
+                    "Nitration of benzene",
+                    "Sulphonation of benzene",
+                    "Friedel-Crafts alkylation",
+                    "Friedel-Crafts acylation",
+                    "Effect of directing groups in monosubstituted benzene"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Phenols",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Phenol Reactions",
+                  "subtopics": [
+                    "Physical properties of phenols",
+                    "Preparation of phenols",
+                    "Halogenation of phenol",
+                    "Nitration of phenol",
+                    "Sulphonation of phenol",
+                    "Reimer-Tiemann reaction",
+                    "Kolbe reaction",
+                    "Esterification of phenol",
+                    "Etherification of phenol",
+                    "Aspirin synthesis",
+                    "Oxidation of phenol",
+                    "Reduction of phenol"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Alkyl Halides",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Haloalkane Reactions",
+                  "subtopics": [
+                    "Rearrangement reactions of alkyl carbocation",
+                    "Grignard reactions",
+                    "Nucleophilic substitution reactions",
+                    "Stereochemical aspects of nucleophilic substitution"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Alcohols",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Alcohol Reactions",
+                  "subtopics": [
+                    "Physical properties of alcohols",
+                    "Esterification of alcohols",
+                    "Dehydration to alkenes",
+                    "Dehydration to ethers",
+                    "Reaction with sodium",
+                    "Reaction with phosphorus halides",
+                    "Reaction with ZnCl2 and concentrated HCl",
+                    "Reaction with thionyl chloride",
+                    "Conversion to aldehydes",
+                    "Conversion to ketones",
+                    "Conversion to carboxylic acids"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Ethers",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Ether Chemistry",
+                  "subtopics": [
+                    "Williamson synthesis",
+                    "C-O bond cleavage reactions"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Aldehydes and Ketones",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Preparation Methods",
+                  "subtopics": [
+                    "Preparation from acid chlorides",
+                    "Preparation from nitriles",
+                    "Preparation of aldehydes from esters",
+                    "Preparation of benzaldehyde from toluene",
+                    "Preparation of benzaldehyde from benzene"
+                  ]
+                },
+                {
+                  "name": "Reactions of Carbonyl Compounds",
+                  "subtopics": [
+                    "Oxidation",
+                    "Reduction",
+                    "Oxime formation",
+                    "Hydrazone formation",
+                    "Aldol condensation",
+                    "Cannizzaro reaction",
+                    "Haloform reaction",
+                    "Nucleophilic addition with RMgX",
+                    "Nucleophilic addition with NaHSO3",
+                    "Nucleophilic addition with HCN",
+                    "Nucleophilic addition with alcohol",
+                    "Nucleophilic addition with amine"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Carboxylic Acids",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Acid Preparation and Reactions",
+                  "subtopics": [
+                    "Physical properties of carboxylic acids",
+                    "Preparation from nitriles",
+                    "Preparation from Grignard reagents",
+                    "Preparation by hydrolysis of esters",
+                    "Preparation by hydrolysis of amides",
+                    "Preparation of benzoic acid from alkylbenzenes",
+                    "Reduction",
+                    "Halogenation",
+                    "Formation of esters",
+                    "Formation of acid chlorides",
+                    "Formation of amides"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Amines",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Preparation and Reactions of Amines",
+                  "subtopics": [
+                    "Preparation from nitro compounds",
+                    "Preparation from nitriles",
+                    "Preparation from amides",
+                    "Hoffmann bromamide degradation",
+                    "Gabriel phthalimide synthesis",
+                    "Reaction with nitrous acid",
+                    "Azo coupling reaction of diazonium salts",
+                    "Sandmeyer reaction",
+                    "Related reactions of diazonium salts",
+                    "Carbylamine reaction",
+                    "Hinsberg test",
+                    "Alkylation reactions",
+                    "Acylation reactions"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Haloarenes",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Haloarene Reactions",
+                  "subtopics": [
+                    "Fittig reaction",
+                    "Wurtz-Fittig reaction",
+                    "Nucleophilic aromatic substitution in haloarenes",
+                    "Nucleophilic aromatic substitution in substituted haloarenes"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Biomolecules",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Carbohydrates",
+                  "subtopics": [
+                    "Classification of carbohydrates",
+                    "Monosaccharides",
+                    "Disaccharides",
+                    "Glucose",
+                    "Sucrose",
+                    "Oxidation of carbohydrates",
+                    "Reduction of carbohydrates",
+                    "Glycoside formation",
+                    "Hydrolysis of sucrose",
+                    "Hydrolysis of maltose",
+                    "Hydrolysis of lactose",
+                    "Anomers"
+                  ]
+                },
+                {
+                  "name": "Proteins and Nucleic Acids",
+                  "subtopics": [
+                    "Amino acids",
+                    "Peptide linkage",
+                    "Primary structure of peptides",
+                    "Secondary structure of peptides",
+                    "Fibrous proteins",
+                    "Globular proteins",
+                    "Chemical composition of DNA",
+                    "Structure of DNA",
+                    "Chemical composition of RNA",
+                    "Structure of RNA"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Polymers",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Polymer Chemistry",
+                  "subtopics": [
+                    "Addition polymerization",
+                    "Condensation polymerization",
+                    "Homopolymers",
+                    "Copolymers",
+                    "Natural rubber",
+                    "Cellulose",
+                    "Nylon",
+                    "Teflon",
+                    "Bakelite",
+                    "PVC",
+                    "Biodegradable polymers",
+                    "Applications of polymers"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Chemistry in Everyday Life",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Drugs and Cleansing Agents",
+                  "subtopics": [
+                    "Drug-target interaction",
+                    "Therapeutic action",
+                    "Antacids",
+                    "Antihistamines",
+                    "Tranquilizers",
+                    "Analgesics",
+                    "Antimicrobials",
+                    "Antifertility drugs",
+                    "Artificial sweeteners",
+                    "Soaps",
+                    "Detergents",
+                    "Cleansing action"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Practical Organic Chemistry",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Detection and Identification",
+                  "subtopics": [
+                    "Detection of nitrogen",
+                    "Detection of sulphur",
+                    "Detection of halogens",
+                    "Identification of alcoholic hydroxyl group",
+                    "Identification of phenolic hydroxyl group",
+                    "Identification of aldehyde group",
+                    "Identification of ketone group",
+                    "Identification of carboxyl group",
+                    "Identification of amino group",
+                    "Identification of nitro group"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mathematics",
+      "units": [
+        {
+          "name": "Algebra",
+          "chapters": [
+            {
+              "name": "Sets, Relations and Functions",
+              "class_tags": ["11"],
+              "topics": [
+                {
+                  "name": "Sets",
+                  "subtopics": [
+                    "Representation of sets",
+                    "Empty set",
+                    "Finite sets",
+                    "Infinite sets",
+                    "Algebra of sets",
+                    "Intersection of sets",
+                    "Complement of sets",
+                    "Difference of sets",
+                    "Symmetric difference of sets",
+                    "Algebraic properties of sets",
+                    "De-Morgan's laws",
+                    "Practical problems on sets"
+                  ]
+                },
+                {
+                  "name": "Relations",
+                  "subtopics": [
+                    "Cartesian product of finite sets",
+                    "Ordered pair",
+                    "Relations",
+                    "Domain of relations",
+                    "Codomain of relations",
+                    "Equivalence relation"
+                  ]
+                },
+                {
+                  "name": "Functions",
+                  "subtopics": [
+                    "Functions as mappings",
+                    "Function as a special case of relation",
+                    "Domain of functions",
+                    "Codomain of functions",
+                    "Range of functions",
+                    "Invertible functions",
+                    "Even functions",
+                    "Odd functions",
+                    "Into functions",
+                    "Onto functions",
+                    "One-to-one functions",
+                    "Polynomial functions",
+                    "Trigonometric functions",
+                    "Exponential functions",
+                    "Logarithmic functions",
+                    "Power functions",
+                    "Absolute value function",
+                    "Greatest integer function",
+                    "Sum of functions",
+                    "Difference of functions",
+                    "Product of functions",
+                    "Composition of functions"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Algebra",
+              "class_tags": ["11"],
+              "topics": [
+                {
+                  "name": "Complex Numbers and Quadratic Equations",
+                  "subtopics": [
+                    "Addition of complex numbers",
+                    "Multiplication of complex numbers",
+                    "Conjugation",
+                    "Polar representation",
+                    "Modulus of complex numbers",
+                    "Principal argument",
+                    "Triangle inequality",
+                    "Cube roots of unity",
+                    "Geometric interpretation of complex numbers",
+                    "Fundamental theorem of algebra",
+                    "Quadratic equations with real coefficients",
+                    "Relations between roots and coefficients",
+                    "Formation of quadratic equation with given roots",
+                    "Symmetric functions of roots"
+                  ]
+                },
+                {
+                  "name": "Sequences, Series and Basic Counting",
+                  "subtopics": [
+                    "Arithmetic progression",
+                    "Geometric progression",
+                    "Arithmetic mean",
+                    "Geometric mean",
+                    "Sum of finite arithmetic progression",
+                    "Sum of finite geometric progression",
+                    "Infinite geometric series",
+                    "Sum of first n natural numbers",
+                    "Sum of squares of first n natural numbers",
+                    "Sum of cubes of first n natural numbers",
+                    "Logarithms and their properties",
+                    "Permutations",
+                    "Combinations",
+                    "Binomial theorem for positive integral index",
+                    "Properties of binomial coefficients"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Matrices",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Matrices and Determinants",
+                  "subtopics": [
+                    "Matrices as rectangular arrays of real numbers",
+                    "Equality of matrices",
+                    "Addition of matrices",
+                    "Scalar multiplication of matrices",
+                    "Product of matrices",
+                    "Transpose of a matrix",
+                    "Elementary row transformations",
+                    "Elementary column transformations",
+                    "Determinant of square matrix up to order three",
+                    "Adjoint of a matrix",
+                    "Inverse of square matrix up to order three",
+                    "Properties of matrix operations",
+                    "Diagonal matrices",
+                    "Symmetric matrices",
+                    "Skew-symmetric matrices",
+                    "Solutions of simultaneous linear equations in two variables",
+                    "Solutions of simultaneous linear equations in three variables"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Probability and Statistics",
+              "class_tags": ["11", "12"],
+              "topics": [
+                {
+                  "name": "Probability",
+                  "subtopics": [
+                    "Random experiment",
+                    "Sample space",
+                    "Impossible events",
+                    "Simple events",
+                    "Compound events",
+                    "Addition rule of probability",
+                    "Multiplication rule of probability",
+                    "Conditional probability",
+                    "Independent events",
+                    "Total probability",
+                    "Bayes' theorem",
+                    "Probability using permutations and combinations"
+                  ]
+                },
+                {
+                  "name": "Statistics",
+                  "subtopics": [
+                    "Measure of central tendency",
+                    "Measure of dispersion",
+                    "Mean",
+                    "Median",
+                    "Mode",
+                    "Mean deviation",
+                    "Standard deviation",
+                    "Variance",
+                    "Grouped data",
+                    "Ungrouped data",
+                    "Frequency distribution with same mean but different variance",
+                    "Random variable",
+                    "Mean of random variable",
+                    "Variance of random variable"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Trigonometry",
+          "chapters": [
+            {
+              "name": "Trigonometry",
+              "class_tags": ["11"],
+              "topics": [
+                {
+                  "name": "Trigonometric Functions and Equations",
+                  "subtopics": [
+                    "Trigonometric functions",
+                    "Periodicity of trigonometric functions",
+                    "Graphs of trigonometric functions",
+                    "Addition formulae",
+                    "Subtraction formulae",
+                    "Formulae involving multiple angles",
+                    "Formulae involving sub-multiple angles",
+                    "General solution of trigonometric equations"
+                  ]
+                },
+                {
+                  "name": "Inverse Trigonometric Functions",
+                  "subtopics": [
+                    "Principal value",
+                    "Elementary properties of inverse trigonometric functions"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Coordinate Geometry",
+          "chapters": [
+            {
+              "name": "Analytical Geometry in Two Dimensions",
+              "class_tags": ["11"],
+              "topics": [
+                {
+                  "name": "Basics and Straight Lines",
+                  "subtopics": [
+                    "Cartesian coordinates",
+                    "Distance between two points",
+                    "Section formula",
+                    "Shift of origin",
+                    "Equation of straight line in various forms",
+                    "Angle between two lines",
+                    "Distance of a point from a line",
+                    "Lines through intersection of two given lines",
+                    "Bisector of angle between two lines",
+                    "Concurrency of lines",
+                    "Centroid of triangle",
+                    "Orthocentre of triangle",
+                    "Incentre of triangle",
+                    "Circumcentre of triangle"
+                  ]
+                },
+                {
+                  "name": "Circle",
+                  "subtopics": [
+                    "Equation of a circle in various forms",
+                    "Equation of tangent to a circle",
+                    "Equation of normal to a circle",
+                    "Equation of chord of a circle",
+                    "Parametric equations of a circle",
+                    "Intersection of a circle with a straight line",
+                    "Intersection of two circles",
+                    "Circle through points of intersection of two circles",
+                    "Circle through points of intersection of a circle and a straight line"
+                  ]
+                },
+                {
+                  "name": "Conic Sections and Locus",
+                  "subtopics": [
+                    "Standard equation of parabola",
+                    "Focus of parabola",
+                    "Directrix of parabola",
+                    "Eccentricity of parabola",
+                    "Parametric equation of parabola",
+                    "Tangent to parabola",
+                    "Normal to parabola",
+                    "Standard equation of ellipse",
+                    "Foci of ellipse",
+                    "Directrices of ellipse",
+                    "Eccentricity of ellipse",
+                    "Parametric equation of ellipse",
+                    "Tangent to ellipse",
+                    "Normal to ellipse",
+                    "Standard equation of hyperbola",
+                    "Foci of hyperbola",
+                    "Directrices of hyperbola",
+                    "Eccentricity of hyperbola",
+                    "Parametric equation of hyperbola",
+                    "Tangent to hyperbola",
+                    "Normal to hyperbola",
+                    "Locus problems"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Three Dimensional Geometry",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Lines and Planes in Space",
+                  "subtopics": [
+                    "Distance between two points in space",
+                    "Direction cosines",
+                    "Direction ratios",
+                    "Equation of a straight line in space",
+                    "Skew lines",
+                    "Shortest distance between two lines",
+                    "Equation of a plane",
+                    "Distance of a point from a plane",
+                    "Angle between two lines",
+                    "Angle between two planes",
+                    "Angle between a line and a plane",
+                    "Coplanar lines"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Calculus",
+          "chapters": [
+            {
+              "name": "Differential Calculus",
+              "class_tags": ["11", "12"],
+              "topics": [
+                {
+                  "name": "Limits and Continuity",
+                  "subtopics": [
+                    "Limit of a function at a real number",
+                    "Continuity of a function",
+                    "Limit of sum of functions",
+                    "Limit of difference of functions",
+                    "Limit of product of functions",
+                    "Limit of quotient of functions",
+                    "Continuity of sum of functions",
+                    "Continuity of difference of functions",
+                    "Continuity of product of functions",
+                    "Continuity of quotient of functions",
+                    "L'Hospital rule",
+                    "Continuity of composite functions",
+                    "Intermediate value property"
+                  ]
+                },
+                {
+                  "name": "Differentiation and Applications",
+                  "subtopics": [
+                    "Derivative of a function",
+                    "Derivative of sum of functions",
+                    "Derivative of difference of functions",
+                    "Derivative of product of functions",
+                    "Derivative of quotient of functions",
+                    "Chain rule",
+                    "Derivative of polynomial functions",
+                    "Derivative of rational functions",
+                    "Derivative of trigonometric functions",
+                    "Derivative of inverse trigonometric functions",
+                    "Derivative of exponential functions",
+                    "Derivative of logarithmic functions",
+                    "Tangents and normals",
+                    "Increasing functions",
+                    "Decreasing functions",
+                    "Second derivative",
+                    "Maximum value of a function",
+                    "Minimum value of a function",
+                    "Rolle's theorem",
+                    "Lagrange's mean value theorem",
+                    "Geometric interpretation of Rolle's theorem",
+                    "Geometric interpretation of Lagrange's theorem",
+                    "Derivatives up to order two of implicit functions",
+                    "Geometric interpretation of derivatives"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Integral Calculus and Differential Equations",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Integration",
+                  "subtopics": [
+                    "Integration as inverse of differentiation",
+                    "Indefinite integrals of standard functions",
+                    "Definite integrals as limit of sums",
+                    "Properties of definite integrals",
+                    "Fundamental theorem of integral calculus",
+                    "Integration by parts",
+                    "Integration by substitution",
+                    "Integration by partial fractions",
+                    "Area bounded by simple curves"
+                  ]
+                },
+                {
+                  "name": "Differential Equations",
+                  "subtopics": [
+                    "Formation of ordinary differential equations",
+                    "Homogeneous differential equations of first order and first degree",
+                    "Separation of variables method",
+                    "Linear first order differential equations"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Vectors and 3D",
+          "chapters": [
+            {
+              "name": "Vectors",
+              "class_tags": ["12"],
+              "topics": [
+                {
+                  "name": "Vector Algebra",
+                  "subtopics": [
+                    "Addition of vectors",
+                    "Scalar multiplication",
+                    "Dot product",
+                    "Cross product",
+                    "Scalar triple product",
+                    "Vector triple product",
+                    "Geometrical interpretation of vector operations"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
